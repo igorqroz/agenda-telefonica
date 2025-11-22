@@ -21,7 +21,7 @@ public class Agenda {
             System.out.println("A agenda está vazia.");
         } else {
             for (Contato c : this.contatos) {
-                c.exibir();
+                //c.exibir();
             }
         }
     }

@@ -14,6 +14,4 @@ CREATE TABLE IF NOT EXISTS contato (
     endereco VARCHAR(255)
 );
 
-delete from contato where id = 'null'
-
--- select * from contato
+select * from contato
